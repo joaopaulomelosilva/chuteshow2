@@ -11,6 +11,10 @@ a:hover{
     color: #F9CE27 !important;
 }
 
+a:active{
+    color: #7A7A7A;
+}
+
 ul{
     padding: 0;
     margin: 0;
@@ -110,6 +114,10 @@ li{
     justify-content: center;
 }
 
+.logo-container a{
+    width: 100%;
+}
+
 .cart a i:hover{
     color: #F9CE27 !important;
 }
@@ -121,6 +129,14 @@ li{
 
 .menu-content{
     margin-bottom: 40px;
+}
+
+.menu-color-active{
+    color: #7A7A7A !important;
+}
+
+.active-button{
+    color: #7A7A7A !important;
 }
 
 
@@ -138,13 +154,6 @@ li{
 
 .chute-show-club-menu{
     display: block;
-}
-
-/* MAIN CONTAINER */
-
-.main-container{
-    height: auto;
-    margin: 0 0 120px 0;
 }
 
 /* FOOTER */

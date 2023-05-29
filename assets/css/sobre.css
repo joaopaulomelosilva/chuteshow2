@@ -1,0 +1,12 @@
+h1{
+    color: #0D0065;
+    font-weight: 700;
+}
+
+/* MAIN CONTAINER */
+
+.main-container{
+    height: 52vh;
+    margin: 100px;
+}
+
