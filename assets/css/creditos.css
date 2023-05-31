@@ -1,0 +1,284 @@
+/* MAIN CONTAINER */
+
+.main-container{
+
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+/* CHUTE SHOW CLUB*/
+
+.chute-show-club {
+    padding: 10px;
+}
+
+.chute-show-club h1{
+    margin: 0;
+}
+
+.vantagens{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.vantagens h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/*Comprar*/
+
+.comprar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.comprar img{
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.comprar-descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comprar-descricao h3, p{
+    margin: 0;
+}
+
+.comprar-descricao h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.comprar-descricao p{
+    font-size: 18px;
+}
+
+.comprar-descricao-type{
+    color: #55595F;
+}
+
+
+.comprar-descricao button{
+    margin-bottom: 20px;
+    color: #0D0065;
+    border-color: #0D0065;
+    background-color: white;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    border: 4px solid #0D0065;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.comprar-descricao button:hover{
+    color: #F9CE27;
+    border-color: #F9CE27;
+    border: 4px solid #F9CE27;
+}
+
+.comprar-valor{
+    color: #55595F;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Vantagens List */
+
+.vantagens-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.vantagens-list h1{
+    margin-bottom: 20px;
+}
+
+.vantagens-list ul li{
+    display: flex;
+    align-items: center;
+
+    color: #55595F;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.vantagens-list ul li i{
+    margin-right: 10px;
+}
+
+/* vantagens-image */
+
+.vantagens-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 0;
+}
+
+.vantagens-image img{
+    margin-top: 20px;
+}
+
+/* CHUTE SHOW CLUB */
+
+.chute-show-club{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chute-show-club h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.creditos-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+.creditos-header h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0D0065;
+    margin-bottom: 20px;
+}
+
+.inicio-creditos a{
+    color: #0D0065;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.inicio-creditos h5{
+    color: #F9CE27;
+}
+
+.card-basic{
+    background-color: #F5F5F5;
+    color: #0D0065;
+
+    border-radius: 12px;
+    margin: 10px 5px 10px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-basic a{
+    height: 100%;
+}
+
+.link-inicio-credito{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+@media (min-width: 576px){
+    .chute-show-club{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 768px){
+    .chute-show-club{
+        padding: 50px 100px;
+    }
+
+    .card-basic{
+        width: 300px;
+        height: 500px;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .vantagens{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 1200px;
+
+        padding: 40px;
+    }
+
+    .vantagens-image img{
+        width: 150px;
+    }
+
+
+
+    .vantagens-image{
+        align-items: center;
+        justify-content: center;
+
+        width: 33%;
+    }
+
+    .vantagens-list{
+        align-items: center;
+        justify-content: center;
+
+        width: 34%;
+    }
+
+    .comprar{
+        align-items: center;
+        justify-content: center;
+
+        width: 33%;
+    }
+
+    .vantagens-list ul li{
+        font-size: 18px;
+    }
+
+
+    .chute-show-club{
+        padding: 50px;
+    }
+
+    .chute-show-club h1{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px){
+
+}
+
