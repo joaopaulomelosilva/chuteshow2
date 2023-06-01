@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jjZHoGaVZblJ9+vLsTnT+TzIBqt+85tDYk7rKtGgQr8x/NHB+9vHjKbtJ/GkVTG8Owz/oMv+ypJPjifXjJ1sHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="./assets/css/afiliados.css">
+    <link rel="stylesheet" href="./assets/css/fale-conosco.css">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -62,7 +62,7 @@
                             <div class="menu-content">
                                 <ul>
                                     <li>
-                                        <a href="">
+                                        <a href="./sobre.html">
                                             Sobre
                                         </a>
                                     </li>
@@ -76,7 +76,7 @@
                                                     <div class="accordion-body">
                                                         <ul>
                                                             <li>
-                                                                <a href="">CASHBACK</a>
+                                                                <a href="./cashback.html">CASHBACK</a>
                                                             </li>
                                                             <li>
                                                                 <a href="">DÊ O SEU CHUTE</a>
@@ -89,17 +89,17 @@
 
                                     </li>
                                     <li>
-                                        <a href="">
+                                        <a href="./afiliados.html">
                                             Afiliados
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="">
+                                        <a href="./creditos.html">
                                             Créditos
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="">
+                                        <a href="./como-participar.html">
                                             Como Participar
                                         </a>
                                     </li>
@@ -132,12 +132,12 @@
                                     </a>
                                     <ul class="dropdown-menu background1">
                                         <li><a class="dropdown-item" href="#">CASHBACK</a></li>
-                                        <li><a class="dropdown-item" href="#">DÊ O SEU CHUTE</a></li>
+                                        <li><a class="dropdown-item" href="https://chuteshow.com.br/?page=login">DÊ O SEU CHUTE</a></li>
                                     </ul>
 
                                 </li>
                                 <li>
-                                    <a href="./afiliados.html" class="active-button">
+                                    <a href="./afiliados.html">
                                         Afiliados
                                     </a>
                                 </li>
@@ -168,28 +168,54 @@
 
     <main class="main-container">
 
-    <div class="title-afiliados">
-        <h1>AFILIADOS</h1>
-        <h5><a href="./index.html">Início</a> /Afiliados</h5>
-    </div>
-    <div class="afiliados">
-        <div class="afiliado-base afiliado-comum">
-            <h1>AFILIADO</h1>
-            <p>Não são assinantes e recebem comissões apenas das indicações diretas.</p>
-            <h3>COMISSÃO</h3>
-            <p>40% do valor das vendas diretas.</p>
+        <div class="fale-conosco-header">
+            <h1>Fale Conosco</h1>
+            <div class="inicio-creditos">
+                <h5><a href="./index.html" class="link-inicio-credito">Início</a>/Chute</h5>
+            </div>
         </div>
-        <div class="afiliado-base afiliado-vip">
-            <h1>AFILIADO VIP</h1>
-            <p>Recebem comissões por todas as indicações diretas e indiretas.</p>
-            <h3>COMISSÃO</h3>
-            <p>50% do valor da adesão, assinatura e compra de créditos, será dividido entre a rede de afiliados , sendo 18% para o primeiro afiliado, 32% dividido entre os demais afiliados indicados.</p>
+        <div class="contato-container">
+            <div class="contato">
+                <p>Entre em contato através do WhattsApp, e-mail ou formulário.</p>
+                <div class="contato-basic numero-whattsApp">
+                    <i class="fab fa-whatsapp" style="color: #bec3cb;"></i>
+                    <p>49 99950-0579</p>
+                </div>
+                <div class="contato-basic email">
+                    <i class="far fa-envelope" style="color: #b2bfd7;"></i>
+                    <p>contato@chute.show</p>
+                </div>
+                <div class="horario-atendimento">
+                    <h3>Horário de atendimento</h3>
+                    <p>Segunda à Sábado: 8h às 18h</p>
+                    <p>Domingo e Feriado: 9h às 14h</p>
+                </div>
+            </div>
+            <form class="messagem">
+                <div class="input-basic nome">
+                    <label for="name">Nome</label>
+                    <input type="text" placeholder="Nome" id="name">
+                </div>
+                <div class="input-basic email">
+                    <label for="email">E-mail</label>
+                    <input type="text" placeholder="E-mail" id="email">
+                </div>
+                <div class="input-basic mensagem">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensagem"></textarea>
+                </div>
+
+                <div class="messagem-button">
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </form>
         </div>
-    </div>
 
     </main>
 
     <footer class="">
+
         <div class="footer-top background1">
             <div class="social-media">
                 <ul>
@@ -221,9 +247,9 @@
                     <ul>
                         <li><a href="./sobre.html" class="">Sobre</a></li>
                         <li><a href="">Club Chute Show</a></li>
-                        <li><a href="">Como participar</a></li>
-                        <li><a href="">Cashcask</a></li>
-                        <li><a href="">Dúvidas</a></li>
+                        <li><a href="./como-participar.html">Como participar</a></li>
+                        <li><a href="./cashback.html">Cashcask</a></li>
+                        <li><a href="./duvidas.html">Dúvidas</a></li>
                     </ul>
                 </div>
 

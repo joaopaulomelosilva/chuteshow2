@@ -1,0 +1,174 @@
+
+.main-container{
+    margin: 5%;
+    min-height: 45vh;
+}
+
+.main-container h1{
+    color: #0D0065;
+    font-weight: 700;
+}
+
+/* Fale Conosco Title Header*/
+
+.fale-conosco-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.inicio-creditos a{
+    color: #0D0065;
+    text-transform: none;
+}
+
+.inicio-creditos h5{
+    color: #F9CE27;
+}
+
+/* Contato Container */
+
+.contato-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contato */
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contato p{
+    color: #7A7A7A;
+    font-weight: 700;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contato-basic{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #605E5F;
+}
+
+.contato-basic p{
+    margin: 0;
+}
+
+.contato-basic i{
+    margin-right: 8px;
+    color: #F9CE27 !important;
+}
+
+.horario-atendimento h3{
+    color: #0D0065;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.horario-atendimento p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* MESSAGEM */
+
+.messagem{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    margin: 0;
+    width: 100%;
+}
+
+.messagem-button{
+    display: flex;
+    justify-content: center;
+}
+
+.messagem-button button{
+    color: white;
+    background-color: #F9CE27;
+    padding: 5px 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.input-basic {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-basic label{
+    color: #0D0065;
+    font-weight: 700;
+}
+
+.input-basic input{
+    padding: 5px;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: white;
+}
+
+.input-basic textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+
+@media (min-width: 576px){
+    .messagem{
+        padding: 40px;
+    }
+}
+
+@media (min-width: 768px){
+    .messagem{
+        padding: 50px;
+
+        max-width: 700px;
+        max-height: 700px;
+    }
+
+    
+}
+
+@media (min-width: 992px){
+    .contato-container{
+        flex-direction: row;
+    }
+
+    .contato{
+        width: 50%;
+        margin: 0;
+    }
+
+    .messagem{
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1200px){
+    
+}
+
+@media (min-width: 1400px){
+    
+}
