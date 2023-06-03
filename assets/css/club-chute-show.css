@@ -1,0 +1,242 @@
+
+.main-container{
+    min-height: 65vh;
+    width: 100%;
+    margin: 0 !important;
+}
+
+
+.gradient {
+    background-image: linear-gradient(to bottom, #0D0065, #010019);
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* */
+
+.bem-vindo{
+    padding: 5px;
+}
+
+.bem-vindo p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.assinantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.assinantes img{
+    max-width: 400px;
+}
+
+.assinantes-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.assinantes-login a, .assinantes-login p{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.assinantes-login p{
+    margin: 0 5px;
+}
+
+.assinantes-login a{
+    font-size: 14px;
+    color: #F9CE27;
+}
+
+/*  */
+
+.tipos-assinantes{
+    display: flex;
+    align-items:flex-start;
+
+    width: 100%;
+
+    color: white;
+    margin-top: 10px;
+}
+
+.tipos-assinantes p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.tipos-assinantes-titulo{
+    font-size: 14px;
+    font-weight: 700;
+    color: #F9CE27;
+    text-transform: uppercase;
+
+    margin-right: 5px;
+}
+
+.club-chute-show-assinantes{
+    padding: 10px;
+}
+
+.club-chute-show-assinantes p{
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.club-chute-show-assinantes h2, .club-chute-show-assinantes h5{
+    color: #F9CE27;
+    text-align: center;
+}
+
+/* Cartão */
+
+.cartao-adesao-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-right: 0px !important;
+
+    width: 100%;
+    height: 100%;
+}
+
+.cartao-adesao-content img{
+    max-width: 250px;
+    margin: 0 !important;
+}
+
+.cartao-adesao-content button{
+    border: none;
+    border-radius: 6px;
+    background-color: #F9CE27;
+    color: white;
+    padding: 5px 10px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+}
+
+.cartao-adesao-content h3{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cartao-adesao{
+    height: 100%;
+}
+
+
+@media (min-width: 576px){
+    .tipos-assinantes p{
+        font-size: 20px;
+    }
+
+    .tipos-assinantes-titulo{
+        font-size: 20px;
+    }
+
+    .club-chute-show-assinantes{
+        padding: 10px 50px;
+    }
+
+    .club-chute-show-assinantes p{
+        font-size: 20px;
+    }
+
+    /* FONTS */
+
+    .bem-vindo p{
+        font-size: 20px;
+    }
+
+    .assinantes-login a, .assinantes-login p{
+        font-size: 20px;
+    }
+
+    .assinantes-login a{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px){
+    .cartao-adesao{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .club-chute-show-assinantes{
+        padding: 10px 60px;
+        width: 100%;
+    }
+
+
+
+    .cartao-adesao-content{
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px){
+    .cartao-adesao{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .assinantes{
+        flex-direction: row;
+        padding: 20px 5%;
+    }
+
+    .assinantes img{
+        width: 50%;
+        margin-right: 30px;
+    }
+
+    .club-chute-show-assinantes{
+        padding: 10px 10px;
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 1200px){
+    .assinantes{
+        padding: 20px 6%;
+    }
+}
+
+@media (min-width: 1400px){
+    .assinantes{
+        padding: 20px 8%;
+    }
+}
